@@ -1,31 +1,52 @@
 'use strict';
 
-// Welcome message
-const userName = prompt("What's your name?");
-alert(`Welcome, ${userName}, to my site! Let's play a game to get to know me better.`);
+// Personalized welcome message
+let userName = prompt("What's your name?");
+alert(`Welcome, ${userName}! Please take a moment to read about me, and when you're ready, press the button to start the test.`);
 
-// Questions
-const questions = [
-  "Do I have any pets?",
-  "Have I ever traveled outside my country?",
-  "Do I speak more than one language?",
-  "Have I ever climbed a mountain?",
-  "Do I enjoy cooking?"
-];
+// Function to start the test
+function startTest() {
+    // Guessing game questions
+    let answer1 = prompt("Did I study Graphic Design in college? (yes/no)").toLowerCase();
+    //console.log("User's answer to question 1:", answer1);
+    if (answer1 === "no" || answer1 === "n") {
+        alert("Correct!");
+    } else {
+        alert("Incorrect!");
+    }
 
-const answers = ["n", "y", "y", "n", "y"];
+    let answer2 = prompt("Have I worked as a Printer Technician? (yes/no)").toLowerCase();
+    //console.log("User's answer to question 2:", answer2);
+    if (answer2 === "yes" || answer2 === "y") {
+        alert("Correct!");
+    } else {
+        alert("Incorrect!");
+    }
 
-for (let i = 0; i < questions.length; i++) {
-  let response = prompt(questions[i]);
-  response = response.toLowerCase();
-  if (response === answers[i] || response === answers[i][0]) {
-    // console.log("Correct!");
-    alert("Correct!");
-  } else {
-    // console.log("Incorrect!");
-    alert("Incorrect!");
-  }
+    let answer3 = prompt("Am I born in Oklahoma? (yes/no)").toLowerCase();
+    //console.log("User's answer to question 3:", answer3);
+    if (answer3 === "yes" || answer3 === "y") {
+        alert("Correct!");
+    } else {
+        alert("Incorrect!");
+    }
+
+    let answer4 = prompt("Do I want to Travel? (yes/no)").toLowerCase();
+    //console.log("User's answer to question 4:", answer4);
+    if (answer4 === "no" || answer4 === "n") {
+        alert("Correct!");
+    } else {
+        alert("Incorrect!");
+    }
+
+    let answer5 = prompt("I do not want to complete Code 201? (yes/no)").toLowerCase();
+    //console.log("User's answer to question 5:", answer5);
+    if (answer5 === "no" || answer5 === "n") {
+        alert("Correct!");
+    } else {
+        alert("Incorrect!");
+    }
 }
 
-// Final message
-alert(`Thanks for playing, ${userName}!`);
+// Event listener for the button click
+document.querySelector('#startButton').addEventListener('click', startTest);

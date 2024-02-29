@@ -1,18 +1,22 @@
-# LAB - Number
+# Lab: Class 02
 
-## Project Name
+Lab: “About Me” project
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+About Me Quiz
 
-### Author: Student/Group Name
+This app is an interactive guessing game where users answer questions about the creator's personal background and interests.
+Users are prompted with questions related to the creator's education, job experience, and life goals, aiming to test their knowledge and engage them in an informative and entertaining experience.
+
+### Author: Jesus Ordunez
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* [Submission PR](https://github.com/Jnez405/AboutMeWebpage)
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Lighthouse Accessibility Report Score](path/to/img/Screenshot 2024-02-28 221025.png)
 
 ### Reflections and Comments
+
+First time I actually researched CSS styles, and I'm impressed by what I can do with it. I also had trouble figuring out how to link files to the main HTML file, but I realized that I need to include the path to the other files, so everything worked out.
