@@ -33,7 +33,7 @@ function startTest() {
 
     let answer4 = prompt("Do I want to Travel? (yes/no)").toLowerCase();
     //console.log("User's answer to question 4:", answer4);
-    if (answer4 === "no" || answer4 === "n") {
+    if (answer4 === "yes" || answer4 === "y") {
         alert("Correct!");
     } else {
         alert("Incorrect!");
