@@ -15,7 +15,7 @@ Users are prompted with questions related to the creator's education, job experi
 
 ### Lighthouse Accessibility Report Score
 
-![Lighthouse Accessibility Report Score](path/to/img/Screenshot 2024-02-28 221025.png)
+![Lighthouse Accessibility Report Score](img\SSCL2.png)
 
 ### Reflections and Comments
 
