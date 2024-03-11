@@ -1,11 +1,10 @@
-# Lab: Class 02
+# Lab: Class 03
 
-Lab: “About Me” project
+Lab: “About Me: Extended” project
 
 About Me Quiz
 
-This app is an interactive guessing game where users answer questions about the creator's personal background and interests.
-Users are prompted with questions related to the creator's education, job experience, and life goals, aiming to test their knowledge and engage them in an informative and entertaining experience.
+This app is an interactive guessing game where users answer questions about the creator's personal background and interests. Users are prompted with questions related to the creator's education, job experience, and life goals, aiming to test their knowledge and engage them in an informative and entertaining experience. Additionally, it has two guessing games: one is a "guess the number" game, and the other is a "guess a country that I would like to visit" game. At the end, users are scored to see how many questions they got right.
 
 ### Author: Jesus Ordunez
 
