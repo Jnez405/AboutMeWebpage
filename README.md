@@ -15,7 +15,7 @@ Users are prompted with questions related to the creator's education, job experi
 
 ### Lighthouse Accessibility Report Score
 
-![Lighthouse Accessibility Report Score](img\SSCL3.png)
+![Lighthouse Accessibility Report Score](https://raw.githubusercontent.com/Jnez405/AboutMeWebpage/main/img/SSCL3.png)
 
 
 
