@@ -21,4 +21,6 @@ Users are prompted with questions related to the creator's education, job experi
 
 ### Reflections and Comments
 
-First time I actually researched CSS styles, and I'm impressed by what I can do with it. I also had trouble figuring out how to link files to the main HTML file, but I realized that I need to include the path to the other files, so everything worked out.
+Changed the page layout to be simple and added some images to the webpage. I really struggled with how everything was going to fit, so I just scrapped the old layout and made this new one.
+
+-First time I actually researched CSS styles, and I'm impressed by what I can do with it. I also had trouble figuring out how to link files to the main HTML file, but I realized that I need to include the path to the other files, so everything worked out.
