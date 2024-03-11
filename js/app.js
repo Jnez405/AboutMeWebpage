@@ -3,7 +3,8 @@
 // Personalized welcome message
 let userName = prompt("What's your name?");
 alert(`Welcome, ${userName}! Please take a moment to read about me, and when you're ready, press the button to start the test.`);
-
+let welcomeHeader = document.getElementById("welcomeHeader");
+welcomeHeader.textContent = `Welcome ${userName}!`;
 // Add an event listener to the button for the 'click' event
 startButton.addEventListener("click", function () {
     // Place your quiz logic here

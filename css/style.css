@@ -35,9 +35,27 @@ body {
 /* Wrapper Styles */
 #wrapper {
   /* Other styles for the wrapper */
+  position: relative; /* Positioning context for pseudo-element */
   padding: 20px; /* Add some padding to see the blurred edges more clearly */
   border-radius: 10px; /* Add border radius to round the edges */
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, .1); /* Apply a blurred shadow around the wrapper */
+  overflow: hidden; /* Ensure the wrapper clips the background */
+}
+
+/* Background Image with Opacity */
+#wrapper::before {
+  content: ''; /* Required for pseudo-element */
+  position: absolute; /* Position the pseudo-element */
+  top: 0; /* Position at the top of the wrapper */
+  left: 0; /* Position at the left of the wrapper */
+  width: 100%; /* Full width of the wrapper */
+  height: 100%; /* Full height of the wrapper */
+  background-image: url('../img/BG1.png'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Adjust size to cover the wrapper */
+  background-position: center; /* Center the background image */
+  opacity: 0.5; /* Adjust opacity level (0.5 is 50%) */
+  filter: blur(8px); /* Apply blur effect to the background image */
+  z-index: -1; /* Move the pseudo-element behind the content */
 }
 
 #header img {
