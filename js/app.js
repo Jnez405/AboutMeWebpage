@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Question 1: Did I study Graphic Design in college?");
         let answer1 = prompt("Did I study Graphic Design in college? (yes/no)").toLowerCase();
         console.log("User's answer to question 1:", answer1);
-        if (answer1 === "no") {
+        if (answer1 === "no" || answer1 === "n") {
             correctAnswersCount++;
             alert("Correct!");
         } else {
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Question 2: Have I worked as a Printer Technician?");
         let answer2 = prompt("Have I worked as a Printer Technician? (yes/no)").toLowerCase();
         console.log("User's answer to question 2:", answer2);
-        if (answer2 === "yes") {
+        if (answer2 === "yes" || answer2 === "y") {
             correctAnswersCount++;
             alert("Correct!");
         } else {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Question 3: Was I born in Oklahoma?");
         let answer3 = prompt("Was I born in Oklahoma? (yes/no)").toLowerCase();
         console.log("User's answer to question 3:", answer3);
-        if (answer3 === "yes") {
+        if (answer2 === "yes" || answer2 === "y") {
             correctAnswersCount++;
             alert("Correct!");
         } else {
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Question 4: Do I want to travel?");
         let answer4 = prompt("Do I want to travel? (yes/no)").toLowerCase();
         console.log("User's answer to question 4:", answer4);
-        if (answer4 === "yes") {
+        if (answer2 === "yes" || answer2 === "y") {
             correctAnswersCount++;
             alert("Correct!");
         } else {
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Question 5: I don't want to complete Code 201?");
         let answer5 = prompt("I don't want to complete Code 201? (yes/no)").toLowerCase();
         console.log("User's answer to question 5:", answer5);
-        if (answer5 === "no") {
+        if (answer1 === "no" || answer1 === "n") {
             correctAnswersCount++;
             alert("Correct!");
         } else {
